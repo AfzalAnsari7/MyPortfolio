@@ -1,0 +1,190 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  background: linear-gradient(135deg, #f6f4f4, #145aab);
+
+  color: rgb(0, 0, 0);
+  min-height: 100vh;
+  flex-wrap: wrap;
+  font-weight:normal;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.hero-content {
+  max-width: 600px;
+  
+}
+
+.hero-content h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #040404;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #020202;
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero-content h2 span {
+  color: #000000;
+  font-weight: 700;
+}
+
+.hero-content p {
+  color: #000000;
+  margin-bottom: 25px;
+  line-height: 1.5;
+   text-align: justify;
+  box-shadow: 0 0 20px #f6f6f6;
+
+   border: 2px solid;
+   border-radius: 20px;
+   padding: 10px 10px;
+  background: linear-gradient(135deg, #f9f7f5, #f5f4f4);
+
+
+}
+
+.hero-content p:hover {
+  box-shadow: 0 0 20px #3d65b7;
+  color: #070707;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  border: 2px solid #0b0b0b;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #00bfff;
+  color: #0b0f19;
+  box-shadow: 0 0 20px #303334;
+}
+
+.download-btn {
+  border: 2px solid ;
+  padding: 1px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #eceaea;
+  transition: all 0.3s ease;
+  border-color: #020202;
+}
+
+.download-btn:hover {
+  box-shadow: 0 0 20px #313435;
+  background-color: #0099cc;
+  color: #070707;
+
+}
+
+.hero-image {
+  position: relative;
+
+}
+
+.image-border {
+  box-sizing: 0 10px 20px solid;
+  border-radius: 500px;
+  border: 2px solid;
+}
+
+.image-border img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 500px;
+  box-shadow: 2px 11px 100px 10px rgb(187, 187, 186);
+
+}
+
+img:hover {
+  transform: translateY(-8px) scale(1.08);
+
+}
+
+/* ✅ Responsive Design for 412px × 915px (and similar mobile screens) */
+@media (max-width: 767px) {
+  .hero {
+    flex-direction: column;         /* stack text + image vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 6% 80px 6%;       /* even top and bottom spacing */
+    gap: 20px;                      /* good spacing between content */
+  }
+
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .hero-image img {
+    width: 230px;                   /* slightly larger for visibility */
+    height: 230px;
+    border-radius: 50%;
+   box-shadow: 2px 1px 100px 10px rgb(187, 187, 186);
+    object-fit: cover;
+  }
+
+  .hero-text {
+    padding: 0 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.9rem;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+
+  .hero-text p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 0 5px;                 /* adds small left-right spacing */
+  }
+
+  .hero .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-top: 25px;
+    gap: 15px;
+  }
+  .hero-content {
+  max-width: 600px;
+}
+}

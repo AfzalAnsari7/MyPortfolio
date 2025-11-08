@@ -1,0 +1,63 @@
+html, body {
+  scroll-snap-type: y mandatory;
+  user-select: none;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+.page1, .page2, .page3,.page4,.page5 {
+  scroll-snap-align: start;
+}
+
+
+.page1
+{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0b0f19;
+  overflow: hidden;
+}
+.page2
+{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0b0f19;
+
+}
+
+.page3{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  background-color: #0b0f19;
+
+}
+.page4
+{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #cacdd3;
+  overflow: hidden;
+
+}
+.page5
+{
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #cacdd3;
+  overflow: hidden;
+
+}
+
+
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,83 @@
+/* 🌟 Main Navbar Styling */
+.navbar-custom {
+  background: linear-gradient(90deg, #03030454, #e9ecf0);
+  padding: 0.8rem 1.5rem;
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+}
+
+/* 🌈 Brand Style */
+.navbar-brand-custom {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0c0c0c !important;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand-custom:hover {
+  color: #d9d5d5 !important;
+}
+
+.navbar-brand-custom .dot {
+  color: #060606;
+}
+
+/* 🧭 Nav Links */
+.nav-link-custom {
+  color: #000000 !important;
+  font-weight: 500;
+  margin: 0 0.8rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+  position: relative;
+}
+
+/* ✨ Hover underline effect */
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #0e0e0e;
+  transition: width 0.3s ease;
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+.nav-link-custom:hover {
+  color: #fafafa !important;
+  transform: translateY(-2px);
+}
+
+/* 🔽 Dropdown Menu */
+.nav-dropdown-custom .dropdown-menu {
+  background-color: #7e7f7e;
+  /* border: 1px solid #1b1c1e; */
+  border-radius: 10px;
+}
+
+.nav-dropdown-custom .dropdown-item {
+  color: #070707 !important;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-dropdown-custom .dropdown-item:hover {
+  background-color: #464646;
+  color: #64ffda !important;
+}
+
+/* 📱 Responsive Behavior */
+@media (max-width: 992px) {
+  .navbar-custom {
+    background-color: #0a192f;
+  }
+
+  .nav-link-custom {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+}
