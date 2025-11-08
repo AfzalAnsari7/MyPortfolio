@@ -13,14 +13,13 @@ function HeroSection() {
           And I'm a <span>Frontend Developer</span>
         </h2>
         <p>
-          I’m a passionate Frontend Software Developer who builds modern,
-          responsive, and user-friendly websites using HTML, CSS, JavaScript,
-          React.js, and Bootstrap. I focus on creating visually appealing
-          interfaces and smooth user experiences. Along with strong frontend
-          skills, I also have a solid understanding of C++ and Data Structures,
-          which helps me to write efficient and optimized code. I’m always eager to
-          learn new technologies and turn creative ideas into functional,
-          high-quality web applications.
+          I’m a passionate Frontend Software Developer from Gurgaon building
+          modern, responsive, and user-friendly websites with HTML, CSS,
+          JavaScript, React.js, and Bootstrap. 10 months’ experience at Indus
+          Towers as Associate Frontend Developer creating client-focused
+          components and solutions. Skilled in C++ and Data Structures, writing
+          efficient, optimized code. Always exploring new technologies and
+          turning ideas into high-quality web applications.
         </p>
 
         <div className="social-icons">
